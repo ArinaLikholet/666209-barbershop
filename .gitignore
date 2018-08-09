@@ -1,6 +1,5 @@
 .DS_Store
 .idea
-.vscode
 *.ai
 *.log
 *.pdf
@@ -9,3 +8,9 @@
 node_modules/
 npm-debug.*
 Thumbs.db
+.vscode
+build/
+gulpfile.js
+jsbeautifyrc.json
+package-lock.json
+package.json

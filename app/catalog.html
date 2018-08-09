@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Каталог Barbershop</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+    <link href="css/normalize.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body class="inner-page">
+
+      <header class="main-header">
+          <nav class="main-nav inner-nav">
+            <div class="nav-container inner-container">
+              <div class="container">
+                <ul class="main-nav-list price-nav">
+                  <li class="main-nav-item">
+                    <a href="index.html" class="main-nav-link inner-logo">
+                      <img src="img/svg/logo.svg" width="115" height="30" alt="Логотип Барбершопа">
+                    </a>
+                  </li>
+                  <li class="main-nav-item">
+                    <a href="#" class="main-nav-link">Информация</a>
+                  </li>
+                  <li class="main-nav-item">
+                    <a href="#" class="main-nav-link">Новости</a>
+                  </li>
+                  <li class="main-nav-item">
+                    <a href="price.html" class="main-nav-link">Прайс-лист</a>
+                  </li>
+                  <li class="main-nav-item">
+                    <a class="main-nav-link">Магазин</a>
+                  </li>
+                  <li class="main-nav-item">
+                    <a href="#" class="main-nav-link">Контакты</a>
+                  </li>
+                </ul>
+                <ul class="enter-nav-list price-enter">
+                  <li class="enter-nav-item">
+                    <a href="#" class="inner-enter">Вход</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+      </header>
+
+    <main class="container">
+
+      <div class="breadcrumbs">
+          <h1 class="catalog-header">Средства для ухода</h1>
+          <ul class="breadcrumbs-list">
+            <li class="breadcrumbs-item">
+              <a href="index.html" class="breadcrumbs-link">Главная</a>
+            </li>
+            <li class="breadcrumbs-item">
+              <a href="#" class="breadcrumbs-link">Магазин</a>
+            </li>
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-link">Средства для ухода</a>
+            </li>
+          </ul>
+        </div>
+        <div class="catalog-main-wrapper">
+          <form method="get" action="htmlacademy">
+
+            <div class="fieldset-wrapper-first">
+              <fieldset class="checkbox">
+                <legend class="checkbox-legent">Производители</legend>
+
+                <ul class="checkbox-list">
+                  <li>
+                    <label class="filter-input-checkbox">
+                      <input class="visually-hidden" type="checkbox" name="baxer" checked>
+                      <span class="checkbox-catalog"></span>Baxter of california
+                    </label>
+                  </li>
+
+                  <li>
+                    <label class="filter-input-checkbox">
+                      <input class="visually-hidden" type="checkbox" name="Mr Natty">
+                      <span class="checkbox-catalog"></span>Mr Natty
+                    </label>
+                  </li>
+
+                  <li>
+                    <label class="filter-input-checkbox">
+                      <input class="visually-hidden" type="checkbox" name="Suavecito" checked>
+                      <span class="checkbox-catalog"></span>Suavecito
+                    </label>
+                  </li>
+
+                  <li>
+                    <label class="filter-input-checkbox">
+                      <input class="visually-hidden" type="checkbox" name="Malin+Goetz">
+                      <span class="checkbox-catalog"></span>Malin+Goetz
+                    </label>
+                  </li>
+
+                  <li>
+                    <label class="filter-input-checkbox">
+                      <input class="visually-hidden" type="checkbox" name="Murray's">
+                      <span class="checkbox-catalog"></span>Murray's
+                    </label>
+                  </li>
+
+                  <li>
+                    <label class="filter-input-checkbox">
+                      <input class="visually-hidden" type="checkbox" name="American crew" checked>
+                      <span class="checkbox-catalog"></span>American crew
+                    </label>
+                  </li>
+                </ul>
+
+              </fieldset>
+            </div>
+            <div class="fieldset-wrapper-second">
+              <fieldset class="radio-catalog">
+                <legend class="checkbox-legent">Группы товаров:</legend>
+
+                <ul class="radio-filter-list">
+                  <li class="radio-filter-item">
+                    <label class="radio-filter-sort">
+                      <input type="radio" class="visually-hidden" name="radio-buton" value="shaved">
+                      <span class="radio-indicator"></span>Бритвенные принадлежности
+                    </label>
+                  </li>
+
+                  <li class="radio-filter-item">
+                    <label class="radio-filter-sort">
+                      <input type="radio" class="visually-hidden"  name="radio-buton" value="Care" checked>
+                      <span class="radio-indicator"></span>Средcтва для ухода
+                    </label>
+                  </li>
+
+                  <li class="radio-filter-item">
+                    <label class="radio-filter-sort">
+                      <input type="radio" class="visually-hidden" name="radio-buton" value="Accessorize">
+                      <span class="radio-indicator"></span>Аксессуары
+                    </label>
+                  </li>
+
+                </ul>
+              </fieldset>
+            </div>
+          </form>
+          <div class="catalog-list-wrapper">
+            <ul class="catalog-list">
+              <li class="catalog-item">
+                <img src="img/baxter2900.jpg" width="220" height="165" alt="Набор для путешествий">
+                <div class="item-info">
+                  <p class="item-description">Набор для путешествий
+                    <span class="catalog-item-title">"Baxter of california"</span>
+                  </p>
+                  <a class="price-btn">2900</a>
+                  <a href="item.html" class="button catalog-button">Купить</a>
+                </div>
+              </li>
+              <li class="catalog-item">
+                <img src="img/baxter750.jpg" width="220" height="165" alt="Увлажняющий кондиционер">
+                <div class="item-info">
+                  <p class="item-description">Увлажняющий кондиционер
+                    <span class="catalog-item-title"> "Baxter of california"</span>
+                  </p>
+                  <a class="price-btn">750</a>
+                  <a href="" class="button catalog-button">Купить</a>
+                </div>
+              </li>
+              <li class="catalog-item">
+                <img src="img/suavecito.jpg" width="220" height="165" alt="Гель для волос">
+                <div class="item-info">
+                    <p class="item-description">Гель для волос<br>
+                      <span class="catalog-item-title">"Suavecito"</span>
+                    </p>
+                  <a class="price-btn">290</a>
+                  <a href="" class="button  catalog-button">Купить</a>
+                </div>
+              </li>
+              <li class="catalog-item">
+                <img src="img/crew.jpg" width="220" height="165" alt="Глина для укладки волос">
+                <div class="item-info">
+                  <p class="item-description">Глина для укладки волос
+                    <span class="catalog-item-title">"American crew"</span>
+                  </p>
+                  <a class="price-btn">500</a>
+                  <a href="" class="button catalog-button">Купить</a>
+                </div>
+              </li>
+              <li class="catalog-item">
+                <img src="img/crew300.jpg" width="220" height="165" alt="Гель для волос">
+                <div class="item-info">
+                  <p class="item-description">Гель для волос<br>
+                    <span class="catalog-item-title">"American crew"</span>
+                  </p>
+                  <a class="price-btn">300</a>
+                  <a href="" class="button catalog-button">Купить</a>
+                </div>
+              </li>
+              <li class="catalog-item">
+                <img src="img/baxter3900.jpg" width="220" height="165" alt="Набор для бритья">
+                <div class="item-info">
+                  <p class="item-description">Набор для бритья<br>
+                    <span class="catalog-item-title">"Baxter of california"</span>
+                  </p>
+                  <a class="price-btn">3900</a>
+                  <a href="" class="button catalog-button">Купить</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="pagination">
+          <ul class="pagination-list">
+            <li class="pagination-item">
+              <a href="" class="social-button">1</a>
+            </li>
+            <li class="pagination-item">
+              <a class="social-button">2</a>
+            </li>
+            <li class="pagination-item">
+              <a href="" class="social-button">3</a>
+            </li>
+            <li class="pagination-item">
+              <a href="" class="social-button">4</a>
+            </li>
+          </ul>
+        </div>
+
+    </main>
+    <footer class="social-footer">
+        <div class="container">
+          <section class="contacts-wrapper">
+            <h2 class="visually-hidden">Контактная информация</h2>
+            <div class="contacts">
+              <p class="contacts-text">Барбершоп "Бородинский"<br> Адрес: г. Санкт-Петербург, Б.Конюшенная, д.19/8<br>
+                <a href="contacts.html" class="contacts-link">Как нас найти</a><br>
+                телефон:+7(495)666-02-66
+              </p>
+            </div>
+            <div class="footer-social">
+              <p class="social-header">Давайте дружить!</p>
+              <ul class="social-list">
+                <li class="social-item">
+                  <a href="#" class="social-button">
+                    <span class="visually-hidden">Вконтакте</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="27" height="15" viewbox="0 0 26.14 14.91">
+                      <path d="M26 13.47l-.09-.17a13.55 13.55 0 0 0-2.6-3q-.87-.83-1.1-1.12A1 1 0 0 1 22 8a10.27 10.27 0 0 1 1.22-1.78l.88-1.16q2.35-3.13 2-4L26 .94a.8.8 0 0 0-.4-.22 2.14 2.14 0 0 0-.87 0h-3.92a.51.51 0 0 0-.27 0h-.3a.6.6 0 0 0-.15.14.93.93 0 0 0-.14.24 22.22 22.22 0 0 1-1.46 3.06q-.5.84-.93 1.46a7 7 0 0 1-.71.91 4.94 4.94 0 0 1-.52.47q-.23.18-.35.15l-.23-.05a.9.9 0 0 1-.31-.33 1.49 1.49 0 0 1-.16-.53V1.6a3.14 3.14 0 0 0 0-.62 2.12 2.12 0 0 0-.14-.44.73.73 0 0 0-.28-.33 1.57 1.57 0 0 0-.46-.18A9 9 0 0 0 12.57 0a8.93 8.93 0 0 0-3.25.33 1.83 1.83 0 0 0-.52.41q-.25.3-.07.33a1.67 1.67 0 0 1 1.16.59l.08.16a2.6 2.6 0 0 1 .19.63 6.32 6.32 0 0 1 .12 1 10.59 10.59 0 0 1 0 1.7q-.07.71-.13 1.1a2.21 2.21 0 0 1-.18.64 2.69 2.69 0 0 1-.16.3l-.07.07a1 1 0 0 1-.37.07.86.86 0 0 1-.46-.19 3.27 3.27 0 0 1-.56-.52 7 7 0 0 1-.66-.93q-.37-.6-.76-1.42l-.22-.39q-.2-.38-.56-1.11t-.62-1.43A.9.9 0 0 0 5.2.9h-.07a.93.93 0 0 0-.22-.16A1.44 1.44 0 0 0 4.6.65L.87.68A1 1 0 0 0 .1.94L0 1a.44.44 0 0 0 0 .22 1.08 1.08 0 0 0 .08.37Q.9 3.53 1.86 5.31t1.66 2.87Q4.23 9.27 5 10.24t1 1.24l.37.41.34.33a8.06 8.06 0 0 0 1 .78 16.34 16.34 0 0 0 1.4.9 7.6 7.6 0 0 0 1.79.72 6.19 6.19 0 0 0 2 .22h1.57a1.08 1.08 0 0 0 .72-.3l.05-.07a.9.9 0 0 0 .1-.25 1.38 1.38 0 0 0 0-.37 4.48 4.48 0 0 1 .09-1.05 2.77 2.77 0 0 1 .23-.71 1.74 1.74 0 0 1 .29-.4 1.19 1.19 0 0 1 .23-.2h.11a.86.86 0 0 1 .77.21 4.52 4.52 0 0 1 .83.79q.39.47.93 1.05a6.41 6.41 0 0 0 1 .87l.27.16a3.31 3.31 0 0 0 .71.3 1.53 1.53 0 0 0 .76.07l3.48-.05a1.58 1.58 0 0 0 .8-.17.68.68 0 0 0 .34-.37 1.06 1.06 0 0 0 0-.46 1.71 1.71 0 0 0-.1-.36z" fill="#fff"/>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-item">
+                    <a href="#" class="social-button">
+                      <span class="visually-hidden">Фейсбук</span>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="19" height="22" viewbox="0 0 10.15 21.74">
+                        <path d="M3.34 1.12A4.77 4.77 0 0 1 6.53 0h3.61v3.81H7.81a1.07 1.07 0 0 0-1.09.83v2.55h3.42c-.08 1.23-.24 2.45-.41 3.67h-3v10.87H2.21V10.86H0V7.21h2.19V3.66a3.83 3.83 0 0 1 1.15-2.54z" fill="#fff"/>
+                      </svg>
+                    </a>
+                  </li>
+                <li class="social-item">
+                  <a href="#" class="social-button">
+                    <span class="visually-hidden">Инстаграмм</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20">
+                      <path d="M18 0H2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-8 6a4 4 0 1 1-4 4 4 4 0 0 1 4-4zM2.5 18a.47.47 0 0 1-.5-.5V9h2.1a3.4 3.4 0 0 0-.1 1 6 6 0 1 0 12 0 3.4 3.4 0 0 0-.1-1H18v8.5a.47.47 0 0 1-.5.5zM18 4.5a.47.47 0 0 1-.5.5h-2a.47.47 0 0 1-.5-.5v-2a.47.47 0 0 1 .5-.5h2a.47.47 0 0 1 .5.5z" fill="#fff"/>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="designed">
+              <p class="designed-text">Разработано</p>
+              <a href="#" class="button web-button">Htmlacademy</a>
+            </div>
+          </section>
+        </div>
+      </footer>
+      <section class="modal modal-enter">
+        <h2 class="modal-header">Личный кабинет</h2>
+        <p class="modal-text">Введите, пожалуйста свой логин и пароль</p>
+        <form class="login-form" action="https://echo.htmlacademy.ru" method="POST">
+          <p>
+            <label for="login-place" class="visually-hidden">Логин</label>
+            <input class="user-login" id="login-place" type="text" name="login" placeholder="Логин">
+          </p>
+          <p>
+            <label for="password-place" class="visually-hidden">Пароль</label>
+            <input class="user-password" id="password-place" type="password" name="password" placeholder="Пароль">
+          </p>
+          <p class="forgotten-password">
+            <label class="help-login">
+              <input type="checkbox" name="remember" class="visually-hidden">
+              <span class="checkbox-indicator"></span>
+              Запомните меня
+              <a href="#">Я забыл пароль!</a>
+            </label>
+          </p>
+          <button class="button form-button">Войти</button>
+        </form>
+        <button class="modal-close">Закрыть</button>
+      </section>
+      <section class="modal map">
+        <h2 class="visually-hidden">Карта</h2>
+        <img src="img/map.jpg" alt="Карта" width="770" height="575">
+        <button class="modal-close"></button>
+      </section>
+    </body>
+
+</html>
